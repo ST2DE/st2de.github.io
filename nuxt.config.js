@@ -6,11 +6,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'landing-page',
+    title: 'ST2DE 學生開發者養成計畫',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js + Vuetify.js project' }
+      { hid: 'description', name: 'description', content: 'Students to developers’ education' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
