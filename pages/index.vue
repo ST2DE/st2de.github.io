@@ -5,7 +5,7 @@
         <v-layout column align-center justify-center class="black--text">
           <h1 class="black--text mb-2 display-1 text-xs-center">Students to developers’ education</h1>
           <div class="subheading mb-3 text-xs-center">學生開發者養成計畫</div>
-          <v-btn class="blue lighten-2 mt-5" dark large href="/pre-made-themes">
+          <v-btn class="blue lighten-2 mt-5" dark large href="https://st2de.kktix.cc/">
             立刻報名
           </v-btn>
         </v-layout>
