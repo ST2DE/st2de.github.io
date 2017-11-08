@@ -61,8 +61,8 @@
                   </v-card-title>
                   <v-card-text>
                     開發：Git / UNIX 系統操作 / 開發環境配置
-基礎：HTML / JavaScript / CSS / Node.js / Express / MySQL
-進階：Passport / Security / React / Redux / MongoDB / Testing
+                    基礎：HTML / JavaScript / CSS / Node.js / Express / MySQL
+                    進階：Passport / Security / React / Redux / MongoDB / Testing
 
                   </v-card-text>
                 </v-card>
@@ -71,6 +71,35 @@
           </v-container>
         </v-flex>
       </v-layout>
+    </section>
+
+    <section>
+      <v-parallax src="/taiwan-1411879_1920.jpg" height="600">
+        <v-layout column align-center justify-center class="black--text">
+          <v-card class="elevation-2" style="opacity:0.9;">
+            <v-card-title>
+              <div>
+                <span class="light-blue--text">第一階段</span>
+              </div>
+            </v-card-title>
+            <v-card-text>
+              <ol>
+                <li>報名 KKTIX（注意：需註冊 KKTIX 帳號，後續才能進行修改）</li>
+                <li>開始練習 <a href="https://www.freecodecamp.org/">freeCodeCamp</a> 線上課程</li>
+                <ul>
+                  <li>HTML5 and CSS</li>
+                  <li>Basic JavaScript</li>
+                  <li>Git</li>
+                  <li>Node.js and Express.js</li>
+                </ul>
+                <li>加入社團，遇到問題可以在<a href="https://www.facebook.com/groups/293538921163334">社團</a>裡面討論</li>
+                <li>完成練習，更新 kktix 資料</li>
+                <li>等待第二階段通知</li>
+              </ol>
+            </v-card-text>
+          </v-card>
+        </v-layout>
+      </v-parallax>
     </section>
   </div>
 </template>
