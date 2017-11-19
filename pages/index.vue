@@ -17,7 +17,7 @@
         <section>
           <v-container grid-list-xl>
             <v-layout row wrap justify-center class="my-5">
-              <v-flex xs12 sm6>
+              <v-flex xs12 sm8>
                 <v-card class="elevation-0 transparent">
                   <v-card-title primary-title class="layout justify-center">
                     <div class="headline blue--text">前言</div>
@@ -66,85 +66,129 @@
             </v-layout>
           </v-container>
         </section>
-
-        <v-flex xs12>
-          <v-container grid-list-xl>
-            <v-layout row wrap align-center>
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-text class="text-xs-center">
-                    <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
-                  </v-card-text>
-                  <v-card-title primary-title class="layout justify-center">
-                    <div class="headline text-xs-center">計畫宗旨</div>
-                  </v-card-title>
-                  <v-card-text>
-                    本計畫定義為進入職場前的培育計畫，目標讓全台灣的學生都能夠參與此計畫，同時能夠解決業界人手不足，讓新一代的技術能夠萌芽、經歷得以傳承。
-                  </v-card-text>
-                </v-card>
-              </v-flex>
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-text class="text-xs-center">
-                    <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
-                  </v-card-text>
-                  <v-card-title primary-title class="layout justify-center">
-                    <div class="headline">計畫目標</div>
-                  </v-card-title>
-                  <v-card-text>
-                    我們認為，成為一個網站開發的自學者，不應該是一個人默默地前進。更多需要的是，一個資深的前輩/學長/助教能夠適時地提供指引與協助。我們透過資深工程師帶領入門新手，讓熱情的學員、初學者也可以踏入技術的殿堂，達到技術的傳承與知識的延續。
-                  </v-card-text>
-                </v-card>
-              </v-flex>
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-text class="text-xs-center">
-                    <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
-                  </v-card-text>
-                  <v-card-title primary-title class="layout justify-center">
-                    <div class="headline text-xs-center">可以學得技術</div>
-                  </v-card-title>
-                  <v-card-text>
-                    開發：Git / UNIX 系統操作 / 開發環境配置
-                    基礎：HTML / JavaScript / CSS / Node.js / Express / MySQL
-                    進階：Passport / Security / React / Redux / MongoDB / Testing
-
-                  </v-card-text>
-                </v-card>
-              </v-flex>
-            </v-layout>
-          </v-container>
-        </v-flex>
       </v-layout>
     </section>
 
-    <!-- <section>
-    <v-parallax src="/taiwan-1411879_1920.jpg" height="600">
-    <v-layout column align-center justify-center class="black--text">
-    <v-card class="elevation-2" style="opacity:0.9;">
-    <v-card-title>
-    <div>
-    <span class="light-blue--text">第一階段</span>
+    <section>
+      <v-parallax src="/taiwan-1411879_1920.jpg" height="600">
+        <v-layout column align-center justify-center class="black--text">
+
+          <v-card class="elevation-2" style="opacity:0.9;">
+            <v-flex xs12 sm8>
+              <v-card-title>
+                <div>
+                  <span class="light-blue--text">活動參與流程</span>
+                </div>
+              </v-card-title>
+              <v-card-text>
+                活動分為兩個部分，專案實作與課程講座同時進行。我們根據個人的技能安排適合自己的專案目標，由助教協助規劃與實現。除了專案之外我們也規劃課程與經驗分享，補充基礎能力之外的進階能力，與職涯學習上的交流。
+              </v-card-text>
+              <v-card-text>
+                <ul>
+                  <li>課程：預期每週一次，一次一個主題，講比較進階的網站開發議題。</li>
+                  <li>演講：預計每個月一次，一次要邀請兩到三個已經工作的開發者，來談談自己是怎麼開始網站前後端的開發，與對新手的方向建議。</li>
+                </ul>
+              </v-card-text>
+              <v-card-title>
+                <div>
+                  <span class="light-blue--text">第一階段：基礎技能準備期</span>
+                </div>
+              </v-card-title>
+              <v-card-text>
+                參加者需在規定時程內自學指定項目，培養全端開發的基礎實作能力。參與者可以透過「ST2DE 學生開發者養成計畫」尋求幫助與互相討論。
+              </v-card-text>
+              <v-card-title>
+                <div>
+                  <span class="light-blue--text">第二階段：個人專案實作期</span>
+                </div>
+              </v-card-title>
+              <v-card-text>
+                定期與助教回報一次進度，與討論遇到的問題。助教將針對需求及想做的東西給予學習方向上的建議。目標根據每個人的能力產出一個小型的個人專案。
+              </v-card-text>
+
+              <v-card-title>
+                <div>
+                  <span class="light-blue--text">第三階段：團體專案實作期</span>
+                </div>
+              </v-card-title>
+              <v-card-text>
+                分組專案開發，由小組自行討論與規劃專案內容。每週與助教回報一次進度，與討論遇到的問題。
+              </v-card-text>
+            </v-flex>
+          </v-card>
+          <v-card-text>
+          </v-card-text>
+
+        </v-layout>
+      </v-parallax>
+    </section>
+
+    <section>
+      <v-container grid-list-xl>
+        <v-layout row wrap justify-center class="my-5">
+          <v-flex xs12 sm4>
+            <v-card class="elevation-0 transparent">
+              <v-card-title primary-title class="layout justify-center">
+                <div class="headline light-blue--text">活動時間</div>
+              </v-card-title>
+              <v-card-text>
+                <ul>
+                  <li>即日起開始報名</li>
+                  <li>12/06 (三) 說明會 - 場次一</li>
+                  <li>12/20 (三) 說明會 - 場次二</li>
+                  <li>02/04 (日) 第一階段結束 （暫定）</li>
+                  <li>02/11 (日) 公布第二階段名單（暫定）</li>
+                  <li>02/24 (六) 第二階段線下說明會（暫定）</li>
+                </ul>
+              </v-card-text>
+            </v-card>
+          </v-flex>
+          <v-flex xs12 sm4>
+            <v-card class="elevation-0 transparent">
+              <v-card-title primary-title class="layout justify-center">
+                <div class="headline light-blue--text">報名方式</div>
+              </v-card-title>
+              <v-card-text>
+                <ul>
+                  <li>註冊 <a href="https://www.freecodecamp.org/">freeCodeCamp</a>（第一階段課程進行與第二階段錄取依據）</li>
+                  <li>註冊 <a href="https://github.com/">GitHUb</a> 帳號（分享程式碼用）</li>
+                  <li>註冊 <a href="https://kktix.com/">KKTIX</a> 帳號，並報名 ST2DE 學生開發者養成計畫第一梯次（後續個人資料繳交更新將以 KKTIX 帳號為主）</li>
+                  <li><span class="red--text">報名前請先閱讀</span><a href="https://hackmd.io/s/Hy8CAOOyf#">參與說明</a>，有助於更了解進行流程哦 ^_____^</li>
+                </ul>
+                此報名僅為參加<span class="red--text">第一階段</span>，完成第一階段 freeCodeCamp 指定教材，會再公布第二階段錄取名單。第二階段錄取將依據「自學狀況」、「社團參與」作為考量。
+              </v-card-text>
+            </v-card>
+          </v-flex>
+          <v-flex xs12 sm4>
+            <v-card class="elevation-0 transparent">
+              <v-card-title primary-title class="layout justify-center">
+                <div class="headline light-blue--text">學習與輔導技能</div>
+              </v-card-title>
+              <v-card-text>
+                <ul>
+                  <li>開發：開發環境配置 / UNIX 系統操作 / Git 及相關 workflow</li>
+                  <li>基礎：HTML / CSS / JavaScript / Node.js / Express.js</li>
+                  <li>進階：Testing / MySQL / MongoDB / React / Redux / Passport / Security</li>
+                </ul>
+              </v-card-text>
+            </v-card>
+          </v-flex>
+          <v-flex xs12 sm4>
+            <v-card class="elevation-0 transparent">
+              <v-card-title primary-title class="layout justify-center">
+                <div class="headline light-blue--text">相關連結</div>
+              </v-card-title>
+              <v-card-text>
+                <ul>
+                  <li>網站：<a href="https://st2de.github.io/">https://st2de.github.io/</a></li>
+                  <li>Facebook 社團：<a href="https://www.facebook.com/groups/st2de">https://www.facebook.com/groups/st2de</a></li>
+                  <li>Facebook 專頁：<a href="https://fb.me/st2de">https://fb.me/st2de</a>​</li>
+                </ul>
+              </v-card-text>
+            </v-card>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </section>
   </div>
-</v-card-title>
-<v-card-text>
-<ol>
-<li>報名 KKTIX（注意：需註冊 KKTIX 帳號，後續才能進行修改）</li>
-<li>開始練習 <a href="https://www.freecodecamp.org/">freeCodeCamp</a> 線上課程</li>
-<ul>
-<li>HTML5 and CSS</li>
-<li>Basic JavaScript</li>
-<li>Git</li>
-<li>Node.js and Express.js</li>
-</ul>
-<li>加入社團，遇到問題可以在<a href="https://www.facebook.com/groups/293538921163334">社團</a>裡面討論</li>
-<li>完成練習，更新 kktix 資料</li>
-<li>等待第二階段通知</li>
-</ol>
-</v-card-text>
-</v-card>
-</v-layout>
-</v-parallax>
-</section> -->
-</div>
 </template>
