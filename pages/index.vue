@@ -183,5 +183,6 @@
         </v-layout>
       </v-container>
     </section>
+    <div class="fb-customerchat" page_id="1274315492713622" minimized="true"></div>
   </div>
 </template>
