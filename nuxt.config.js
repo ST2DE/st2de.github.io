@@ -15,9 +15,15 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
+    ],
+    script: [
+      { src: 'https://connect.facebook.net/en_US/all.js'}
     ]
   },
-  plugins: ['~/plugins/vuetify.js'],
+  plugins: [
+    {src: '~/plugins/vuetify.js'},
+    {src: '~/plugins/fb.js', ssr: false}
+  ],
   css: [
     '~/assets/style/app.styl'
   ],
